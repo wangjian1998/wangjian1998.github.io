@@ -1,0 +1,130 @@
+div,p,h1,h2,h3,h4,h5,h6,ul,ol,li
+{
+    margin:0;
+    padding:0;
+}
+.main
+{
+    width:800px;
+    margin:0 auto;
+    padding:30px;
+    border-top:3px solid blue;
+    border-bottom:3px solid blue;
+    height:1344px;
+}
+.head
+{
+    width:800px;
+    height:200px;
+    border-bottom:1px dashed #000;
+}
+.head img
+{
+    float:left;
+    width:165px;
+}
+.head h2
+{
+    float:right;
+    margin-right:40px;
+    font:40px "Microsoft Yahei";
+    width:400px;
+    text-align: center;
+    margin-bottom:20px;
+}
+.head p
+{
+    float:right;
+    font:20px "Microsoft Yahei";
+    width:300px;
+}
+.head p a
+{
+    color:#000;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+}
+.head p a:hover
+{
+color:red;
+}
+.form_
+{
+    width:800px;
+    margin:0 auto;
+    margin-top:20px;
+}
+.form_ p
+{
+font:20px "Microsoft Yahei";
+text-align: center;
+margin-bottom:20px;
+}
+.apply_form {
+    width: 800px;
+    height: 345px;
+    margin:0 auto;
+    }
+.apply_form .apply_form_c { 
+    position: relative;
+    display: inline-block;
+    width: 310px;
+    height: 41px;
+    margin: 0 16px 15px 0;
+}
+.apply_form span
+ {
+    display: inline-block;
+    width: 60px;
+    height: 41px;
+    background-color: #EDEDEF;
+    font: normal 12px "微软雅黑";
+    line-height: 41px;
+    color: #221814;
+    padding-left: 15px;
+    _width: 75px;
+    position: absolute;
+    top: 0;
+    left: 0;
+ }
+ .apply_form input 
+ {
+    display: inline-block;
+    width: 235px;
+    height: 41px;
+    outline: none;
+    padding: 0;
+    border: 0;
+    background-color: #EDEDEF;
+    line-height: 41px;
+    position: absolute;
+    top: 0;
+    right: 0;
+ }
+.apply_form textarea
+ {
+    resize: none;
+    background-color: #EDEDEF;
+    height: 120px;
+    width: 601px;
+    border: 0;
+    outline: none;
+    font: normal 12px/20px "微软雅黑";
+    color: #221814;
+    padding: 10px 20px;
+    overflow: hidden;
+ }
+ .apply_form button
+  {
+    font: normal 14px/41px "黑体";
+    color: #000;
+    width: 100%;
+    height: 41px;
+    background-color: #EDEDEF;
+    padding: 0;
+    margin: 10px 0 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

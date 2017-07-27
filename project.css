@@ -1,0 +1,83 @@
+div,p,h1,h2,h3,h4,h5,h6,ul,ol,li
+{
+    margin:0;
+    padding:0;
+}
+.main
+{
+    width:800px;
+    margin:0 auto;
+    padding:30px;
+    border-top:3px solid blue;
+    border-bottom:3px solid blue;
+    height:620px;
+}
+.head
+{
+    width:800px;
+    height:200px;
+    border-bottom:1px dashed #000;
+}
+.head img
+{
+    float:left;
+    width:165px;
+}
+.head h2
+{
+    float:right;
+    margin-right:40px;
+    font:40px "Microsoft Yahei";
+    width:400px;
+    text-align: center;
+    margin-bottom:20px;
+}
+.head p
+{
+    float:right;
+    font:20px "Microsoft Yahei";
+    width:300px;
+}
+.head p a
+{
+    color:#000;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+}
+.head p a:hover
+{
+color:red;
+}
+.project
+{
+    width:800px;
+    margin:0 auto;
+    padding:20px;
+    
+}
+.project h2
+{
+    font:40px "Microsoft Yahei";
+    text-align: center;
+    margin-bottom:35px;
+}
+.project li
+{
+    float:left;
+    width:195px;
+    margin-right:5px;
+    list-style: none;
+}
+.project li img
+{
+    display:block;
+    width:100%;
+}
+.project li p
+{
+   
+    font:16px "Microsoft Yahei";
+    color:red;
+    text-align: center;
+}
